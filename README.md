@@ -3,7 +3,7 @@
 PROJET EN COURS DE FINALISATION
 Ce dépôt est en cours de mise à jour et sera complété prochainement.
 
-Version complète disponible à partir du 4 mai
+
 
 
 
