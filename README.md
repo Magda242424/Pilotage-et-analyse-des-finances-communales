@@ -21,12 +21,12 @@ L'organisation du dépôt suit une logique de pipeline ETL (Extract, Transform, 
 *   **Apache Superset** : Datavisualisation haute-fidélité et dashboards interactifs.
 
 ## Visualisation & Tableaux de Bord (Superset)
-*Insérez ici vos captures d'écran pour illustrer votre travail visuel.*
+
 
 ![Dashboard Superset - Aperçu Global](assets/votre_capture_superset_1.png)
 *Exemple de visualisation des recettes et dépenses de fonctionnement.*
 
-## 📈 Indicateurs Clés & Modélisation
+##  Indicateurs Clés & Modélisation
 Le pipeline calcule automatiquement les indicateurs de santé financière :
 *   **Épargne brute & nette** : Capacité réelle d'autofinancement.
 *   **Capacité de désendettement** : Ratio dette / épargne brute.
@@ -55,12 +55,6 @@ Le projet s'appuie sur une base de données MySQL optimisée. Les scripts de cr�
 
 
 ---
-
-### Quelques conseils pour finaliser sur GitHub :
-
-1.  **Le dossier `assets/`** : N'oublie pas de créer ce dossier dans ton dépôt et d'y glisser tes images (PNG/JPG). Si le fichier s'appelle `dashboard.png`, le lien dans le README doit être `![Texte](assets/dashboard.png)`.
-2.  **Le dossier `sql/`** : Mets-y tes fichiers `.sql`. C'est très valorisant, car cela montre que tu maîtrises aussi la partie "Data Engineering" et pas seulement le Python.
-3.  **Le `.gitignore`** : C'est le plus important. Crée un fichier nommé `.gitignore` à la racine et écris juste `.env` dedans. Cela évitera de publier ton mot de passe MySQL par erreur.
 
 
 
