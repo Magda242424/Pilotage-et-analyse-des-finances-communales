@@ -9,7 +9,7 @@ Version complète disponible à partir du 4 mai
 
 
 
-# PILOTAGE DES FINANCES COMMUNALES DE LA VILLE DE LYON – DATA PIPELINE ET SCÉNARIOS
+# PILOTAGE DES FINANCES COMMUNALES DE LA VILLE DE LYON – DATA PIPELINE ET SCÉNARIOS - Version complète disponible à partir du 4 mai
 
 ## Objectif
 Développer un pipeline de données complet permettant d’analyser, fiabiliser et piloter les finances de la **Ville de Lyon** à travers des indicateurs clés et des simulations de scénarios prospectifs.
