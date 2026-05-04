@@ -51,13 +51,13 @@ Les fichiers CSV utilisés dans ce projet ont été préalablement filtrés dire
 
 Filtres appliqués :
 
-### Données OFGL – Comptes des communes (2017–2024)
+#### Données OFGL – Comptes des communes (2017–2024)
 - Commune : Lyon  
 - Type de budget : Budget principal  
 - Nomenclature : M57  
 - Exercice : 2024  
 
-### Données Ministère – Balances comptables (2024)
+#### Données Ministère – Balances comptables (2024)
 - Code INSEE : 123  
 - Libellé budget (LBUDG) : LYON  
 - Exercice : 2024  
