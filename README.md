@@ -28,15 +28,15 @@ Déploiement de tableaux de bord interactifs et de data visualisations haute fid
 ### 4. Analyses Avancées (Descriptive, Diagnostique, Prédictive)
 Exploitation complète du cycle de la donnée : de l’analyse historique à la modélisation statistique des budgets à l’horizon 2027.
 
-### 5. Ingénierie de Données Multi-sources
-Structuration et exploitation de données issues de systèmes hétérogènes (comptes des communes et balances comptables) avec un typage strict et une intégrité garantie.
+### 5. Gestion de données multi-sources  
+Organisation et utilisation de données provenant de différentes sources (comptes des communes et balances comptables), avec un travail de nettoyage et de structuration.
 
 ## Architecture Technique
 - Base de données : MySQL (schémas relationnels et vues calculées)  
 - Traitement : Python / Jupyter Notebook (Pandas, Scikit-Learn)  
 - Visualisation : Apache Superset  
 
-## Sources des Données
+## Sources des Données :
 
 ### Observatoire des Finances et de la Gestion Publique Locales (OFGL)
 Données : Comptes des communes 2017–2024  
@@ -46,10 +46,8 @@ Source : https://data.ofgl.fr
 Données : Balances comptables des communes en 2024  
 Source : https://data.economie.gouv.fr  
 
-## Pré-traitement des Données
+### Pré-traitement des Données
 Les fichiers CSV utilisés dans ce projet ont été préalablement filtrés directement depuis les interfaces des plateformes open data, comme illustré dans les captures d’écran du repository.
-
-Filtres appliqués :
 
 Filtres appliqués :
 
