@@ -3,13 +3,13 @@
 # PILOTAGE DES FINANCES COMMUNALES DE LA VILLE DE LYON  
 ## Data Pipeline et Analyse Décisionnelle
 
----
+
 
 ## Objectif Stratégique
 
 Transformer des données financières brutes en outils de pilotage afin de sécuriser l’analyse et anticiper les trajectoires budgétaires.
 
----
+
 
 ## Organisation du Projet
 
