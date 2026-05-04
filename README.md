@@ -35,6 +35,34 @@ Structuration et exploitation de données issues de systèmes hétérogènes (Co
 * **Traitement** : Python / Jupyter Notebook (Scikit-Learn, Pandas).
 * **Visualisation** : Apache Superset.
 
+## Sources des données
+
+Les données utilisées dans ce projet proviennent de sources open data institutionnelles :
+
+- **Observatoire des Finances et de la Gestion Publique Locales (OFGL)**  
+  Données : *Comptes des communes 2017–2024*  
+  Source : https://data.ofgl.fr  
+
+- **Ministère de l’Économie et des Finances**  
+  Données : *Balances comptables des communes en 2024*  
+  Source : https://data.economie.gouv.fr  
+
+### Pré-traitement des données
+
+Les fichiers CSV utilisés dans ce projet ont été **préalablement filtrés directement depuis les interfaces des plateformes open data**, comme illustré dans les captures d’écran du repository :
+
+- Filtrage sur la commune de **Lyon**
+- Sélection du **budget principal**
+- Filtrage sur l’année **2024**
+- Application de critères métier (nomenclature M57, identifiants INSEE, etc.)
+
+Ce pré-filtrage permet :
+- de travailler sur un périmètre analytique cohérent
+- d’optimiser les traitements
+- de reproduire des cas d’usage métiers concrets
+
+Les étapes suivantes du pipeline (nettoyage, structuration, analyse) sont réalisées via SQL et Python et SQL
+
 
 ---
 
