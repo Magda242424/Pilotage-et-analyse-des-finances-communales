@@ -64,10 +64,4 @@ Les étapes suivantes du pipeline (nettoyage, structuration et analyse) sont ré
 
 
 
-
-
-
-
-
-
 ---
