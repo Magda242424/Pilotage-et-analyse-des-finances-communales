@@ -55,11 +55,6 @@ Filtres appliqués :
 - Exercice : 2024  
 - Critères métier : nomenclature M57, identifiants INSEE, etc.  
 
-Objectifs du pré-filtrage :
-- Travailler sur un périmètre analytique cohérent  
-- Optimiser les traitements  
-- Reproduire des cas d’usage métiers concrets  
-
 Les étapes suivantes du pipeline (nettoyage, structuration et analyse) sont réalisées en SQL et en Python.
 
 ---
