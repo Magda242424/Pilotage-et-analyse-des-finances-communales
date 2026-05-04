@@ -1,27 +1,20 @@
 ---
 
+
 # PILOTAGE DES FINANCES COMMUNALES DE LA VILLE DE LYON  
 ## Data Pipeline et Analyse Décisionnelle
 
-
-
 ## Objectif Stratégique
-
 Transformer des données financières brutes en outils de pilotage afin de sécuriser l’analyse et anticiper les trajectoires budgétaires.
 
-
-
 ## Organisation du Projet
-
 Le dépôt est structuré selon une logique ETL (Extract, Transform, Load) :
 
-- **`sql/`** : Architecture de la base de données, vues analytiques et procédures  
-- **`notebook/`** : Nettoyage des données, calculs statistiques et modèles de prédiction (Python)  
-- **`images/`** : Restitution visuelle via les tableaux de bord Apache Superset  
+- **sql/** : Architecture de la base de données, vues analytiques et procédures  
+- **notebook/** : Nettoyage des données, calculs statistiques et modèles de prédiction (Python)  
+- **images/** : Restitution visuelle via les tableaux de bord Apache Superset  
 
----
-
-## 🚀 Démonstration des Compétences Clés
+## Démonstration des Compétences Clés
 
 ### 1. Valorisation et Pilotage de la Donnée
 Mise en œuvre de solutions concrètes pour transformer les flux comptables en indicateurs de performance au service des décideurs.
@@ -38,41 +31,31 @@ Exploitation complète du cycle de la donnée : de l’analyse historique à la 
 ### 5. Ingénierie de Données Multi-sources
 Structuration et exploitation de données issues de systèmes hétérogènes (comptes des communes et balances comptables) avec un typage strict et une intégrité garantie.
 
----
-
 ## Architecture Technique
-
-- **Base de données** : MySQL (schémas relationnels et vues calculées)  
-- **Traitement** : Python / Jupyter Notebook (Pandas, Scikit-Learn)  
-- **Visualisation** : Apache Superset  
-
----
+- Base de données : MySQL (schémas relationnels et vues calculées)  
+- Traitement : Python / Jupyter Notebook (Pandas, Scikit-Learn)  
+- Visualisation : Apache Superset  
 
 ## Sources des Données
 
-Les données utilisées dans ce projet proviennent de sources open data institutionnelles :
-
 ### Observatoire des Finances et de la Gestion Publique Locales (OFGL)
-- Données : *Comptes des communes 2017–2024*  
-- Source : https://data.ofgl.fr  
+Données : Comptes des communes 2017–2024  
+Source : https://data.ofgl.fr  
 
 ### Ministère de l’Économie et des Finances
-- Données : *Balances comptables des communes en 2024*  
-- Source : https://data.economie.gouv.fr  
-
----
+Données : Balances comptables des communes en 2024  
+Source : https://data.economie.gouv.fr  
 
 ## Pré-traitement des Données
-
 Les fichiers CSV utilisés dans ce projet ont été préalablement filtrés directement depuis les interfaces des plateformes open data, comme illustré dans les captures d’écran du repository.
 
-### Filtres appliqués :
-- Commune : **Lyon**  
-- Type de budget : **Budget principal**  
-- Exercice : **2024**  
+Filtres appliqués :
+- Commune : Lyon  
+- Type de budget : Budget principal  
+- Exercice : 2024  
 - Critères métier : nomenclature M57, identifiants INSEE, etc.  
 
-### Objectifs du pré-filtrage :
+Objectifs du pré-filtrage :
 - Travailler sur un périmètre analytique cohérent  
 - Optimiser les traitements  
 - Reproduire des cas d’usage métiers concrets  
